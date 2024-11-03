@@ -28,3 +28,4 @@ movies_filtered
 title_weight = movies_filtered.sort_values("weighted_rating", ascending=False)[["title","weighted_rating"]].head(10)
 
 print(title_weight)
+print(movies_filtered)
